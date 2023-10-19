@@ -1,0 +1,83 @@
+.post-info {
+    border-bottom: 2px solid #E6E6E6;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+}
+
+    .post-info .user-info {
+        display: flex;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+        .user-info p {
+            color: rgb(100, 100, 100);
+            font-size: 13px;
+        }
+
+        .user-info img {
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border-radius: 100%;
+        }
+
+    .post-info #caption {
+        padding: 0px 0px 0px 70px;
+        margin-bottom: 10px;
+    }
+
+    .post-info .img-posted {
+        padding: 0px 70px 0px 70px;
+    }
+
+        .img-posted img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .img-posted .buttons {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .img-posted button {
+            background-color: var(--secondary);
+            margin-left: 10px;
+            padding: 10px 15px;
+            font-size: 14px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            transition: 0.4s ease;
+        }
+
+        .img-posted button:active {
+            font-size: 12px;
+        }
+
+        .img-posted button:hover {
+            opacity: 0.9;
+        }
+    
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse {
+    animation-name: pulse;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    color: red;
+}
+
+

@@ -1,0 +1,95 @@
+.nft-item {
+    display: flex;
+    width: min-content;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #E6E6E6;
+    padding: 20px 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+    .nft-item img {
+        width: 30%;
+        border-radius: 15px;
+        margin-right: 40px;
+    }
+
+    .nft-item .price-bid {
+        display: flex;
+        justify-content: space-around;
+    }
+
+        .nft-item .price-bid .listed-price {
+            background-color: #F8F8F8;
+            padding: 10px 15px;
+            width: 200px;
+            height: 100px;
+            border-radius: 20px;
+        }
+
+    .nft-item #buy, .nft-item #bid {
+        padding: 10px 0;
+        margin: 0 10px;
+        font-size: 18px;
+        background-color: var(--primary);
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 30px;
+        border: none;
+    }    
+
+    .nft-item button:hover {
+        opacity: 0.8;
+    }
+
+    .nft-item .nft-info {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+        .nft-info .nft-name {
+            display: flex;
+        }
+
+        .nft-info .nft-prices {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 80px;
+        }
+
+            .nft-attributes .all-attr {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+                padding: 20px 20px 20px 20px;
+            }
+
+            .all-attr .attribute {
+                background-color: #F8F8F8;
+                padding: 10px 7px;
+                width: 130px;
+                border-radius: 10px;
+            }
+
+                .attribute #rarity {
+                    font-size: 11px;
+                    background-color: white;
+                    color: #A2A3A7;
+                    padding: 1px 5px;
+                    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.2);
+                    border-radius: 20px;
+                }
+
+    .nft-item .nft-info img {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+        border-radius: 100%;
+    }
+
+    #nft-picture {
+        width: 700px;
+    }

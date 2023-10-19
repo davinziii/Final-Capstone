@@ -1,0 +1,32 @@
+.profile-dashboard {
+    padding: 20px 200px;
+    background-color: var(--primary2);
+    color: var(--primary);
+    font-family: 'Roboto Condensed', sans-serif;
+    z-index: -1;
+}
+
+ul {
+    border-bottom: 2px solid var(--border);
+    height: 39px;
+    margin-top: 10px;
+}
+
+    ul li {
+        display: inline-block;
+        padding: 10px 15px;
+        cursor: pointer;
+        color: var(--text-muted);
+        font-weight: bold;
+        border-bottom: 2px solid var(--border);
+        transition: 0.3s ease;
+    }
+
+    ul li:hover {
+        border-bottom: 2px solid var(--secondary);
+    }
+
+.active-tab {
+    color: var(--primary);
+    border-bottom: 2px solid var(--secondary);
+}

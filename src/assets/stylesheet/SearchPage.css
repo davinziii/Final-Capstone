@@ -1,0 +1,24 @@
+.search-result {
+    width: 1000px;
+    border: 2px solid #E6E6E6;
+    padding: 20px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    .searched-user .suggested-user {
+        padding: 10px 40px 10px 10px;
+        width: 100%;
+        border-radius: 10px;
+        color: var(--primary);
+        box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+        font-family: 'Roboto Condonsed', sans-serif;
+        transition: 0.3s ease;
+        text-decoration: none;
+        background-color: transparent;
+    }
+
+    .searched-user .suggested-user:hover {
+        background-color: rgb(233, 233, 233);
+    }

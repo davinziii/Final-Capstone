@@ -1,0 +1,60 @@
+.suggestions{
+    position: sticky;
+    width: 15%;
+    min-width: 300px;
+    height: min-content;
+    padding: 20px 15px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 10px;
+    border: 2px solid #E6E6E6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    .suggested-user {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+    }
+
+        .suggested-user h3 {
+            font-weight: bolder;
+        }
+
+        .suggested-user img {
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+            border-radius: 100%;
+        }
+
+        .suggested-user .text-muted {
+            color: rgb(100, 100, 100);
+        }
+
+        .suggested-user .buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+            .suggested-user .buttons button {
+                margin-left: 10px;
+                padding: 10px 15px;
+                font-size: 14px;
+                border-radius: 10px;
+                color: white;
+                background-color: var(--secondary);
+                border: none;
+                transition: 0.4s ease;
+            }
+    
+            .suggested-user .buttons button:active {
+                font-size: 12px;
+            }
+    
+            .suggested-user .buttons button:hover {
+                opacity: 0.9;
+            }

@@ -1,0 +1,36 @@
+.collection {
+    padding: 10px 50px;
+}
+
+    .sort-filter {
+        display: flex;
+        width: 500px;
+        padding: 10px 20px;
+    }
+
+        .sort-filter select, .sort-filter #search-nft {
+            padding: 5px 20px;
+            font-family: 'Open Sans', sans-serif;
+            border: 2px solid #E6E6E6;
+            border-radius: 10px;
+            outline: none;
+        }
+
+        .sort-filter input {
+            margin-left: 30px;
+            width: 100%;
+        }
+
+        .sort-filter button {
+            width: 100px;
+        }
+
+    .collection-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        gap: 10px;
+        min-width: 315px;
+        width: 100%;
+        margin-left: 20px;
+    }

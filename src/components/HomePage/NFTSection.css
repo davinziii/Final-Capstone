@@ -1,0 +1,129 @@
+.nft-section {
+    height: auto;
+    padding: 10px 30px;
+}
+
+#count {
+    counter-increment: headings;
+    content: counter(headings);
+}
+
+.nft-section .buttons {
+    display: flex;
+    column-gap: 10px;
+}
+
+.blockchain-list, .timeframe-list {
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+    .blockchain-list button, .timeframe-list button {
+        padding: 10px 15px;
+        font-size: 20px;
+        font-family: 'Roboto Condensed', sans-serif;
+        border: none;
+        transition: 0.3s ease;
+        color: var(--primary3);
+        background-color: var(--primary) !important; 
+    }
+
+    .blockchain-list button:hover, .timeframe-list button:hover {
+        background-color: #424242;
+    }
+
+    .blockchain-list i {
+        transition: 0.2s ease;
+    }
+
+    .blockchain-list .cf-btc:hover {
+        color: #EA8C19;
+    }
+
+    .blockchain-list .cf-eth:hover {
+        color: #5D6388;
+    }
+
+    .blockchain-list .cf-sol:hover {
+        background-image: linear-gradient(60deg, rgba(152,70,254,1) 19%, rgba(27,250,154,1) 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .blockchain-list .cf-matic:hover {
+        color: #7E45DE;
+    }
+
+
+.collection-lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+    .collections {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 10px;
+        width: 100%;
+        border-radius: 10px;
+        color: var(--primary);
+        box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+        font-family: 'Roboto Condonsed', sans-serif;
+        transition: 0.3s ease;
+        text-decoration: none;
+    }
+
+    .collections:hover {
+        background-color: rgb(233, 233, 233);
+    }
+
+        .collections .project-title {
+            display: flex;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+            width: 400px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+            .collections .project-title img {
+                width: 70px;
+                margin-right: 10px;
+                border-radius: 10px;
+            }    
+
+            .collections .project-title #blockchain {
+                position: absolute;
+                width: 25px;
+                bottom: -3px;
+                left: -2px;
+                border: 3px solid white;
+                border-radius: 100px;
+                background-color: white;
+            }  
+
+            .collections .project-title h1 {
+                display: inline-block;
+                vertical-align: middle;
+            }  
+
+            .collections .project-actions p{
+                color: #575757;
+                font-size: 12px;
+            }
+
+        .collections .project-details {
+            display: flex;
+            justify-content: space-around;
+            flex-grow: 1;
+        }
+
+            .collections .project-details .project-actions {
+                width: 200px;
+            }

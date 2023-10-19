@@ -1,0 +1,24 @@
+.user-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    border-radius: 30px;
+}
+
+    .user-icon img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    .user-icon p {
+        color: rgb(255, 255, 255);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .user-icon #username {
+        color: #c5c5c5;
+        font-size: 12px;
+    }
